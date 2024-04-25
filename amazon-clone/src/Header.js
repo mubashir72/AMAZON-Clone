@@ -1,0 +1,17 @@
+import React from "react";
+
+function Header() {
+  return;
+  <nav className="header">
+    {/* logo on the left */}
+    <img
+      className="header__logo"
+      src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
+    ></img>
+    {/* search box */}
+    {/* three links */}
+    {/* basket icon */}
+  </nav>;
+}
+
+export default Header;
