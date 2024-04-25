@@ -1,5 +1,6 @@
-
+import React from "react";
 import './App.css';
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
   return (
@@ -7,11 +8,14 @@ function App() {
       <h1>
         Hello Programmers, lets build amazon clone
       </h1>
-      {{/* localhost.com */}}
-      {{/* localhost.com/checkout */}}
-      {{/* localhost.com/login */}}
+      
     </div>
   );
 }
 
 export default App;
+
+{/* we need a react router */}
+{/* localhost.com */}
+{/* localhost.com/checkout */}
+{/* localhost.com/login */}
