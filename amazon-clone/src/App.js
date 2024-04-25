@@ -6,7 +6,18 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <h1>Hello Programmers, lets build amazon clone</h1>
+        <Switch>
+          <Route path="/checkout">
+            <h1>checkout</h1>
+          </Route>
+          <Router path="/login">
+            <h1> LoginPage</h1>
+          </Router>
+          {/* this isthe default route */}
+          <Route path="/">
+            <h1>Home Page</h1>
+          </Route>
+        </Switch>
       </div>
     </Router>
   );
